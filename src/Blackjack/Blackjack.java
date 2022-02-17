@@ -137,7 +137,7 @@ public class Blackjack {
                         for (int i = 0; i<DealerHand.size()-1; i++){
                             result2 += DealerHand.get(i).toString() + " | ";
                         }
-                        result2 += DealerHand.get(PlayerHand.size()-1).toString();
+                        result2 += DealerHand.get(DealerHand.size()-1).toString();
                         System.out.println(result2);
                         System.out.println("Dealer point: " + DealerPoint);
                     }
